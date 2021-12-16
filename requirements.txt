@@ -4,4 +4,3 @@ sklearn
 nltk
 contractions
 spacy
-pickle==4.0
