@@ -1,6 +1,6 @@
 pandas
 numpy
-sklearn
+sklearn==0.24.1
 nltk
 contractions
 spacy
