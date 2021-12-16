@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
-from nltk.tokenize import word_tokenize
+
 import re
 import nltk
+from nltk.tokenize import word_tokenize
 from contractions import contractions_dict
 from nltk.corpus import stopwords
 from spacy.lang.en.stop_words import STOP_WORDS
