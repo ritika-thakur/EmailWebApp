@@ -1,0 +1,9 @@
+pandas
+numpy
+sklearn
+nltk
+re
+contractions
+spacy
+itertools
+pickle
