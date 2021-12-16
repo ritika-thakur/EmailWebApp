@@ -27,8 +27,9 @@ if st.button('Predict'):
     st.write('text processed')
     pca_reduced_text = pca.transform(tf_idf_text)
 
-    label = gnb.predict(pca_reduced_text)
-    if label ==1:
-        st.success('Email is not SPAM')
-    else:
-        st.success('Email is SPAM')
+    label = gnb.predict_proba(pca_reduced_text)
+    st.success(label)
+    # if label ==1:
+    #     st.success('Email is not SPAM')
+    # else:
+    #     st.success('Email is SPAM')
